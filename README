@@ -5,10 +5,11 @@ Hoarder is a deduplication-based backup system that supports compression and aut
 Well, you shouldn't yet. It is currently work-in-progress.
 
 ##What needs to be done?
-1. Add the ability to upload the backup to a remote system (ssh? aws?).
-2. Add the ability to restore from a backup server.
-3. Write some unit tests.
-4. Create test backup data.
+1. Clean-up the mess (current state is a block of code that does what it should, but in no way organized or even in a useable state)
+2. Add the ability to upload the backup to a remote system (ssh? aws?).
+3. Add the ability to restore from a backup server.
+4. Write some unit tests.
+5. Create test backup data.
 
 ##Words of Warning
 This is in development and is not considered a full, or partial backup system yet.
